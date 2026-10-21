@@ -1,0 +1,29 @@
+# Um padrão (regex estendida, sem diferenciar maiúsculas) por linha. Linhas com # são comentários.
+# Endereços e identificadores de infraestrutura
+execute-api\.
+amazonaws\.com
+supabase\.(co|com)
+(^|[^0-9])[0-9]{12}([^0-9]|$)
+AKIA[0-9A-Z]{16}
+# Chaves e identificadores de cobrança
+sk_(live|test)_
+pk_(live|test)_
+whsec_
+price_[A-Za-z0-9]{8,}
+# Nomes internos de repositórios e iniciativas
+PLN-[0-9]+
+nexflow-(backend|admin|specs|app-mobile|planning)
+# Nomes de regras e componentes internos do NexFlow
+financialSpaceId
+FEATURE_KEYS
+plan_features
+RequireFeature
+InsightProvider
+TaxInvoice
+# Dados pessoais
+[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}
+[0-9]{2}\.[0-9]{3}\.[0-9]{3}/[0-9]{4}-[0-9]{2}
+[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}
+# Pessoas e contas
+edusc
+eduardo

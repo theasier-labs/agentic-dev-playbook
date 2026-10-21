@@ -1,0 +1,11 @@
+name: Sanitização
+on:
+  push:
+  pull_request:
+jobs:
+  varredura:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Varredura de termos proibidos
+        run: scripts/sanitizar.sh
