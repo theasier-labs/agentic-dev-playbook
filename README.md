@@ -1,5 +1,7 @@
 # Playbook de desenvolvimento com agentes de IA
 
+[![Sanitização](https://github.com/theasier-labs/agentic-dev-playbook/actions/workflows/sanitizacao.yml/badge.svg)](https://github.com/theasier-labs/agentic-dev-playbook/actions/workflows/sanitizacao.yml)
+
 Um processo para construir software com agentes de IA sem perder o controle do que vai para produção. É o método que a [Theasier](https://theasier.com.br) usa no NexFlow, escrito como modelo reutilizável.
 
 - **O case, com números e erros:** [Como construímos o NexFlow](https://theasier.com.br/como-construimos)
@@ -26,6 +28,10 @@ O fluxo é inspirado no AI-DLC (AI-Driven Development Life Cycle) da AWS, public
 ## Limites
 
 Todo número do exemplo é fictício. Nada aqui promete resultado: o método reduz risco, não o elimina. Veja [CONTRIBUTING.md](CONTRIBUTING.md) para o que aceitamos e o limite de suporte.
+
+## Versões
+
+Cada mudança relevante vira uma versão com notas em [CHANGELOG.md](CHANGELOG.md) e uma [release](https://github.com/theasier-labs/agentic-dev-playbook/releases).
 
 ## Licença
 
